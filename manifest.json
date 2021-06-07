@@ -1,0 +1,37 @@
+{
+  "name": "Alpha CRC List",
+  "description": "We look at your lists and look for the word that you enter in the list and also have the opportunity to download the changed or unchanged list again in the form of txt format",
+  "version": "0.07",
+  "manifest_version": 3,
+ "content_scripts": 
+  [ 
+        {
+            "all_frames": true,
+            "matches": ["<all_urls>"],/*Чтоб могли работать на всех страницах*/
+            "js":["jquery-3.6.0.min.js"],
+             "run_at": "document_end"
+
+        }
+  ],
+
+  /*Большинство API, включая API хранилища , должны быть зарегистрированы в "permissions"поле манифеста, чтобы расширение могло их использовать.*/
+ "permissions": ["storage", "activeTab", "scripting","tabs"],/*Активируем хранилище,активную вкладку, скрипты ну и другие вкладки*/
+ /*Интерфейс*/
+  "action": {
+    "default_popup": "Popur.html",
+      /*Тут даём название изображениям и используем изображение*/
+     "default_icon": {
+      "16": "/images/Alpha_Size_16.png",
+      "32": "/images/Alpha_Size_32.png",
+      "48": "/images/Alpha_Size_48.png",
+      "128": "/images/Alpha_Size_128.png"
+    }
+  },
+   "icons": {
+    "16": "/images/Alpha_Size_16.png",
+    "32": "/images/Alpha_Size_32.png",
+    "48": "/images/Alpha_Size_48.png",
+    "128": "/images/Alpha_Size_128.png"
+  }
+}
+ 
