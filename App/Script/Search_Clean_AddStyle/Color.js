@@ -25,6 +25,7 @@ async function ColorAtribute(){/*Асинхронная функция для в
      console.log("saveColor")/*Помощник*/
   }
 }
+/*Переписываем стиль*/
  function ChangeColorFocus(){/*Отдельная функция переписывание стиля для смены цвета*/
       chrome.storage.sync.get("IdBut", ({ IdBut }) => {/*Достаём переменную из local storage Google которую сохранили на момент отправки функции*/  
         document.getElementById("StyleAtribute").innerHTML=".Focus {background-color:" +IdBut+ ";color:white;}"/*Переписываем для смены цвета в существ стиле*/
@@ -55,6 +56,7 @@ async function ColorTextChange(){/*Асинхронная функция для 
      console.log("Save Color TEXT")/*Помощник*/
   } 
 }
+/*Переписываем стиль*/
  function ChangeColorFocusText(){/*Отдельная функция переписывание стиля для смены цвета*/
       chrome.storage.sync.get("IdButTEXT", ({ IdButTEXT }) => {/*Достаём переменную из local storage Google которую сохранили на момент отправки функции*/  
         document.getElementById("StyleText").innerHTML=".FocusPokus {background-color:" +IdButTEXT+ ";color:white;}"/*Переписываем для смены цвета в существ стиле*/

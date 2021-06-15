@@ -2,6 +2,8 @@
 //      Функция таймер для срабатывания       //
 //    через опрд кол-во секунд опрд функции  //
 ////////////////////////////////////////////// 
+
+
 Time_Testid.addEventListener("click", TimeFunction)
     function TimeFunction() {/*Таймер срабатывание*/
   setInterval(function () { alert("TimeGo"); globalvar() }, 10000)/*Таймер с интервалом  1000мл=1сек*/ }
