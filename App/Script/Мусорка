@@ -1,0 +1,16 @@
+alert("Test6")/*tst in sec*/
+    srwAtribute()/*переход к другой функции*/
+    alert("End function ChoiseWord")/*Конец функции*/
+        /*local storage*/
+                chrome.storage.sync.set({ words });/*Сохраняем переменную в local google chrome*/
+                chrome.storage.sync.set({ stringWords });/*Сохраняем переменную в local google chrome*/  
+                chrome.storage.sync.set({ listTeg });/*Сохраняем переменную в local google chrome*/
+                chrome.storage.sync.set({ TEXTTEST });/*Сохраняем переменную в local google chrome*/
+
+                /*Nada script popur*/
+                  <script src="App/Script/Search_Clean_AddStyle/srwAtribyte.js"></script><!--Script Третья функция для поиска слова или атрибута с добавление span-->
+                      <script src="App/Script/Search_Clean_AddStyle/ChoiseWord.js"></script><!--Script  раздел по строкам-->
+                         <script src="App/Script/Search_Clean_AddStyle/AddStyleFunction.js"></script><!--Script функция добавление стиля к найденным словам-->
+                              <script src="App/Script/Search_Clean_AddStyle/SaverAtrbText.js"></script><!--Script для сохранение  последнего вписанного слово в textarea-->
+                                <script src="App/Script/Search_Clean_AddStyle/Clean_Function.js"></script><!--Script для  удаление стиля который мы добавляли при поиске слова-->
+                                     <script src="App/Script/Search_Clean_AddStyle/ListSrch.js"></script><!--Script для разбора слов на строки -->
