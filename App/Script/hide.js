@@ -1,3 +1,6 @@
+/////////////////////////////////////////////////////////////////////////////////////
+// Функции и переменные для того чтоб прятать одно меню при открытии другого меню //
+///////////////////////////////////////////////////////////////////////////////////
 /*Переменные кнопок но которые используються в Popur для того чтоб обойти защиту*/
 var MyTabSet = document.getElementById("MyTabSet").addEventListener("click", Hid)/*Кнопка настроек*/
 var MyTabSearch = document.getElementById("MyTabSearch").addEventListener("click", HidSearch)/*Кнопка поиска*/
@@ -8,9 +11,8 @@ var MyTabATRIBUTE=document.getElementById("MyTabAtribute").addEventListener("cli
 var AtributeSet=document.getElementById("AtributeSet").addEventListener("click",hideatrb)/*Кнопка менюшки с настройками фокуса атрибутами*/
 var TextSet=document.getElementById("TextSet").addEventListener("click",hidetext)/*Кнопка менюшки с настройками фокуса текста */
 var ThemeSet=document.getElementById("ThemeSet").addEventListener("click",hideTheme)/*Кнопка менюшки с настройками темами*/
-
 /*Переменные кнопок*/
-var x = document.getElementById('Setting1');/*Настройка цвер*/
+var x = document.getElementById('Setting1');/*Настройка цвет*/
 
 var x1 = document.getElementById('HidenSearch');/*Поиск*/
 

@@ -1,4 +1,7 @@
-/*Темы*/ /*Кнопки для обхода блокировки*/
+///////////////////////////////////////////////////////////////
+//      Функция для смены цвета с переменными кнопками      //
+///////////////////////////////////////////////////////////// 
+/*Кнопки для обхода блокировки*/
 var dark =document.getElementById("dark").addEventListener("click", UpdateTheme)/*Кнопка с кликом на функцию*/
 var calm =document.getElementById("calm").addEventListener("click", UpdateTheme)/*Кнопка с кликом на функцию*/
 var light =document.getElementById("light").addEventListener("click", UpdateTheme)/*Кнопка с кликом на функцию*/
